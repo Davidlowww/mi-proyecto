@@ -7,6 +7,14 @@
   pointer-events: none;
 }
 
+.rojo{
+  background-color: red;
+}
+
+.verde{
+  background-color: green;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +43,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.componente1{
+  padding: 20px;
+  width: 20px 30px;
+  border-radius: 50px 30px;
+  background-color: #61dafb;
+  border-width: 0px;
 }
